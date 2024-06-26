@@ -1,4 +1,5 @@
-Evertour (Virtual Tours and Travels)
+Project Name: Evertour (Virtual Tours and Travels)
+Team Name: Cloudify
 
 Table of Contents:
 1.	Introduction
