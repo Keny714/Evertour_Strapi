@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "booking_infos",
+  "info": {
+    "singularName": "booking-info",
+    "pluralName": "booking-infos",
+    "displayName": "booking info"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cardHolderName": {
+      "type": "text"
+    },
+    "hotelName": {
+      "type": "text"
+    },
+    "price1": {
+      "type": "biginteger"
+    },
+    "rooms": {
+      "type": "integer"
+    },
+    "guests": {
+      "type": "integer"
+    },
+    "checkin": {
+      "type": "date"
+    },
+    "checkout": {
+      "type": "date"
+    }
+  }
+}

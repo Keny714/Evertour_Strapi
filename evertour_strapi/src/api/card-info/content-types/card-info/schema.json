@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "card_infos",
+  "info": {
+    "singularName": "card-info",
+    "pluralName": "card-infos",
+    "displayName": "Cardinfo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "card_holder_name": {
+      "type": "text"
+    },
+    "card_number": {
+      "type": "biginteger"
+    },
+    "cvv_number": {
+      "type": "integer"
+    },
+    "expiry_month": {
+      "type": "integer"
+    },
+    "expiry_year": {
+      "type": "integer"
+    },
+    "Username": {
+      "type": "string"
+    }
+  }
+}

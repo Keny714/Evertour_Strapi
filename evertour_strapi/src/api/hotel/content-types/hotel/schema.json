@@ -1,0 +1,150 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hotels",
+  "info": {
+    "singularName": "hotel",
+    "pluralName": "hotels",
+    "displayName": "Hotel"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ho1": {
+      "type": "string"
+    },
+    "desc1": {
+      "type": "text"
+    },
+    "acco1": {
+      "type": "string"
+    },
+    "acco2": {
+      "type": "string"
+    },
+    "acco3": {
+      "type": "string"
+    },
+    "h1_day1": {
+      "type": "string"
+    },
+    "h1_day2": {
+      "type": "string"
+    },
+    "h1_day3": {
+      "type": "string"
+    },
+    "h1_day4": {
+      "type": "string"
+    },
+    "h1_day5": {
+      "type": "string"
+    },
+    "h1_review": {
+      "type": "text"
+    },
+    "h1_price": {
+      "type": "biginteger"
+    },
+    "h1_i1": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "h1_i2": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "h1_i3": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "ho2": {
+      "type": "string"
+    },
+    "desc2": {
+      "type": "text"
+    },
+    "h2_acco1": {
+      "type": "string"
+    },
+    "h2_acco2": {
+      "type": "string"
+    },
+    "h2_acco3": {
+      "type": "string"
+    },
+    "h2_day1": {
+      "type": "string"
+    },
+    "h2_day2": {
+      "type": "string"
+    },
+    "h2_day3": {
+      "type": "string"
+    },
+    "h2_day4": {
+      "type": "string"
+    },
+    "h2_day5": {
+      "type": "string"
+    },
+    "h2_review": {
+      "type": "text"
+    },
+    "h2_price": {
+      "type": "biginteger"
+    },
+    "h2_i1": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "h2_i2": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "h2_i3": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "State": {
+      "type": "string"
+    }
+  }
+}
